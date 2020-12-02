@@ -1,0 +1,53 @@
+#footer_crystal_pay{
+	background: linear-gradient(90deg, #018AD2 0%, #0E4FA3 100%);
+	color: #fff;
+	padding-top: 55px;
+	li{padding-bottom: 15px;font-size: 15px;font-weight: 400;}
+	.icon{margin-right: 10px;}
+	.title_box_ft{
+		font-weight: 700;
+	    font-size: 15px;
+	    line-height: 22px;
+	    padding-bottom: 25px;
+	}
+	.box_footer_1 {
+		.logo{
+			 margin-bottom: 20px;
+			 margin: 0 0 30px 0;
+		}
+		.list_contact_information{
+			i{font-size: 20px;}
+		}
+	}
+	.bottom_ft{
+		border-top: 1px solid #fff;
+	    margin-top: 40px;
+	    padding-top: 50px;
+	    .license_address {
+	    	font-size: 16px;    margin-top: 15px;    line-height: 25px;
+	    	.address{
+	    		display: flex;
+    			margin-top: 15px;
+    			.icon{
+    				padding-top: 5px;
+    			}
+    			.content{
+    				p{
+    					margin-bottom: 10px;
+    				}
+    			}
+	    	}
+	    }
+
+	}
+	.logo , .img_bct{
+			width: max-content;
+		}
+	.bottom_ft{
+		.bct{
+			display: flex;
+		    align-items: center;
+		    justify-content: center;
+		}
+	}
+}
