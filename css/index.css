@@ -28,7 +28,6 @@ img {
   src: url("../font/Inter-Regular-slnt=0.ttf") format("woff"); }
 
 #header .header_crystal_pay {
-  border-bottom: 2px solid #24a6e2;
   background: #018ad2;
   background: -webkit-gradient(linear, left top, right top, from(#006bbb), to(#018ad2));
   background: -webkit-linear-gradient(left, #006bbb 0%, #018ad2 100%);
@@ -198,6 +197,9 @@ img {
   opacity: 1 !important;
   visibility: visible !important; }
 
+.home .header_crystal_pay {
+  border-bottom: 2px solid #24a6e2; }
+
 #header .header_Singlr_Course {
   height: 70px; }
   #header .header_Singlr_Course .header_right {
@@ -340,6 +342,12 @@ img {
       margin-left: 15px; }
       #header .header_Singlr_Course .menu_header .content_Course i {
         margin-left: 10px; }
+
+@media (max-width: 991px) {
+  #header .header_crystal_pay .logo img {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content; } }
 
 #footer_crystal_pay {
   background: -webkit-gradient(linear, left top, right top, from(#018AD2), to(#0E4FA3));
@@ -774,6 +782,8 @@ img {
     -ms-flex-pack: center;
     justify-content: center;
     border-right: 2px solid #cecece; }
+    .box_process .process > div .icon {
+      margin-right: 15px; }
   .box_process .process > div:last-child {
     border-right: none; }
 
@@ -960,7 +970,8 @@ img {
   background: #047DD6;
   min-height: 300px;
   position: relative;
-  margin-top: 160px; }
+  margin-top: 160px;
+  border-radius: 25px; }
   .box_registration .img {
     position: absolute;
     bottom: -26px; }
@@ -2744,3 +2755,203 @@ img {
     margin-right: 15px; }
   .page_course_buying_guide .form_opinion .yes {
     margin-left: 15px; }
+
+.content_page_profile {
+  background: #F2F2F2;
+  padding: 60px 0; }
+  .content_page_profile .toolbar {
+    border: 1px solid #928e8e; }
+    .content_page_profile .toolbar .avartar_count {
+      padding: 15px; }
+    .content_page_profile .toolbar img {
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content;
+      margin: auto; }
+    .content_page_profile .toolbar .name_acount {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px;
+      letter-spacing: -0.15000000596046448px;
+      text-align: center;
+      margin: 15px 0; }
+    .content_page_profile .toolbar .list .item {
+      padding: 10px;
+      border-top: 1px solid #9c9c9c; }
+      .content_page_profile .toolbar .list .item .icon {
+        margin-right: 10px; }
+    .content_page_profile .toolbar .list .active {
+      background: #0182cc;
+      color: #fff; }
+  .content_page_profile .tab_toolbar .tab {
+    background: #fff;
+    padding: 35px;
+    display: none; }
+    .content_page_profile .tab_toolbar .tab .title {
+      font-family: Open Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: left;
+      margin-bottom: 15px; }
+      .content_page_profile .tab_toolbar .tab .title:after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #aba6a6;
+        display: block;
+        margin-top: 15px; }
+  .content_page_profile .tab_toolbar #tab1 .meta p {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px; }
+  .content_page_profile .tab_toolbar #tab1 i {
+    font-size: 20px;
+    margin-right: 15px; }
+  .content_page_profile .tab_toolbar .show_tab {
+    display: block; }
+  .content_page_profile .tab_toolbar #tab2 .list_course .item_course, .content_page_profile .tab_toolbar #tab3 .list_course .item_course {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .content_page_profile .tab_toolbar #tab2 .list_course .item_course .img, .content_page_profile .tab_toolbar #tab3 .list_course .item_course .img {
+      width: 15%; }
+    .content_page_profile .tab_toolbar #tab2 .list_course .item_course img, .content_page_profile .tab_toolbar #tab3 .list_course .item_course img {
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content; }
+    .content_page_profile .tab_toolbar #tab2 .list_course .item_course .meta, .content_page_profile .tab_toolbar #tab3 .list_course .item_course .meta {
+      width: 85%;
+      padding: 20px 10px; }
+      .content_page_profile .tab_toolbar #tab2 .list_course .item_course .meta .title_course, .content_page_profile .tab_toolbar #tab3 .list_course .item_course .meta .title_course {
+        font-family: Open Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.4000000059604645px;
+        text-align: left; }
+      .content_page_profile .tab_toolbar #tab2 .list_course .item_course .meta p, .content_page_profile .tab_toolbar #tab3 .list_course .item_course .meta p {
+        font-family: Open Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0px;
+        margin-top: 15px; }
+  .content_page_profile .tab_toolbar #tab4 .team_creation {
+    position: absolute;
+    right: 48px;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.16500000655651093px;
+    text-align: center;
+    color: #047DD6; }
+  .content_page_profile .tab_toolbar #tab4 .team {
+    position: relative; }
+    .content_page_profile .tab_toolbar #tab4 .team p {
+      font-family: Open Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .content_page_profile .tab_toolbar #tab4 .team p i {
+        margin-right: 10px; }
+    .content_page_profile .tab_toolbar #tab4 .team a.manage {
+      border-radius: 20px;
+      border: 1px solid #047DD6;
+      color: #047DD6;
+      padding: 5px 15px;
+      position: absolute;
+      right: 0;
+      top: 0; }
+  .content_page_profile #tab5 {
+    background: #f2f2f2;
+    padding: 0; }
+    .content_page_profile #tab5 > div {
+      background: #fff;
+      margin-bottom: 20px;
+      padding: 20px; }
+    .content_page_profile #tab5 form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      .content_page_profile #tab5 form > p {
+        width: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+        .content_page_profile #tab5 form > p label {
+          width: 100%;
+          margin: 10px 0;
+          font-family: Open Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 22px;
+          letter-spacing: -0.16500000655651093px;
+          text-align: left; }
+        .content_page_profile #tab5 form > p input {
+          border: 1px solid #989898;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          border-radius: 9px;
+          height: 50px;
+          width: 95%; }
+      .content_page_profile #tab5 form .sex input {
+        width: 16px;
+        margin-right: 10px; }
+      .content_page_profile #tab5 form .sex span {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-right: 10px; }
+      .content_page_profile #tab5 form .submit {
+        width: 100%; }
+        .content_page_profile #tab5 form .submit .buttom {
+          height: 40px;
+          width: -webkit-max-content;
+          width: -moz-max-content;
+          width: max-content;
+          padding: 0 15px;
+          border: 1px solid #0182cc;
+          background: #0182cc;
+          color: #fff;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          font-family: Open Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 22px;
+          letter-spacing: 0px;
+          text-align: center;
+          border-radius: 10px; }

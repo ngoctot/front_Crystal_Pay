@@ -350,6 +350,9 @@
 		    align-items: center;
 		    justify-content: center;
 		    border-right: 2px solid #cecece;
+		    .icon{
+		    	margin-right: 15px;
+		    }
 		}
 		>div:last-child{
 			border-right: none;
@@ -548,6 +551,7 @@
     min-height: 300px;
     position: relative;
     margin-top: 160px;
+    border-radius: 25px;
 	.img {
 		position: absolute;
     	bottom: -26px;

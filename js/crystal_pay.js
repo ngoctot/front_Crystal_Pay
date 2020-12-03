@@ -77,8 +77,8 @@ jQuery(document).ready(function($){
         clickable: true,
       },
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next.swiper-button-next-list-comment',
+        prevEl: '.swiper-button-prev.swiper-button-prev-list-comment',
       },
     });
      var swiper_couser = new Swiper('.list_teacher .swiper-container', {
@@ -90,8 +90,16 @@ jQuery(document).ready(function($){
         clickable: true,
       },
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next.swiper-button-next-list_teacher',
+        prevEl: '.swiper-button-prev.swiper-button-prev-list_teacher',
       },
     });
+
+     $(document).on('click','.content_page_profile .toolbar .list .item',function(){
+          $('.active').removeClass('active');
+          $(this).addClass('active');
+          var rel= $(this).attr('rel');
+           $('.content_page_profile .tab_toolbar .show_tab').removeClass('show_tab');
+          $('.content_page_profile .tab_toolbar #'+rel).addClass('show_tab');
+     });
 });

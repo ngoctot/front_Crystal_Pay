@@ -1,6 +1,6 @@
 #header{
 	.header_crystal_pay{
-		border-bottom: 2px solid #24a6e2;
+		
 		background: rgb(1,138,210);
 		background: linear-gradient(90deg, #006bbb 0%, rgba(1,138,210,1) 100%);
 
@@ -168,6 +168,11 @@
 		visibility: visible !important;
 	}
 }
+.home{
+	.header_crystal_pay{
+		border-bottom: 2px solid #24a6e2;
+	}
+}
 //single courser
 #header{
 	.header_Singlr_Course{
@@ -304,3 +309,6 @@
 			}
 	}
 }
+@media (max-width: 991px) {
+	#header .header_crystal_pay .logo img{width: max-content;}
+ }
